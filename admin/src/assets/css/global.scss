@@ -1,0 +1,21 @@
+.show{
+  max-height: 100% !important;
+  transition: all 0.8s ease-in;
+}
+
+.active{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.left{
+  float: left;
+}
+
+.clear{
+  overflow: hidden;
+}
+
+.flex{
+  display: flex;
+}

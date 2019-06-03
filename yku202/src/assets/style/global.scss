@@ -1,0 +1,73 @@
+$theme-text-color: #495A80;
+$theme-line-color: #A39F93;
+$theme-title-color: #0D1740;
+
+html,body{
+  height: 100%;
+  font-size: 62.5%  !important;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.pl-20{
+  padding-left: 2rem;
+}
+.pr-20{
+  padding: 2rem;
+}
+.p-20{
+  padding: 2rem 0;
+}
+.pt-20{
+  padding-top: 2rem;
+}
+
+.ml-20{
+  margin-left: 2rem;
+}
+.mr-20{
+  margin: 2rem;
+}
+.m-20{
+  margin: 2rem 0;
+}
+.mt-20{
+  margin-top: 2rem;
+}
+
+.clear{
+  overflow: hidden;
+}
+.clear::after{
+  content: '';
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  width: 0;
+  clear: both;
+}
+
+.blueColor{
+  color: #003CBD;
+}
+
+.redColor{
+  color: #B00404;
+}
+
+.transition-influence{
+  -moz-transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+}
